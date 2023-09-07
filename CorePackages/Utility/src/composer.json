@@ -1,0 +1,20 @@
+{
+    "name": "Peal/BayBizz/Utility",
+    "description": "Utility Classes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Minuddin Peal",
+            "email": "moinuddin7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Peal\\CorePackages\\Utility\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support":"~10.19.0"
+    }
+}

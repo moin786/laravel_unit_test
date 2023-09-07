@@ -1,0 +1,20 @@
+{
+    "name": "Peal/BayBizz/Category",
+    "description": "Category Information",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Minuddin Peal",
+            "email": "moinuddin7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Peal\\CorePackages\\Category\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support":"~10.19.0"
+    }
+}

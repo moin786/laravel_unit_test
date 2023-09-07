@@ -1,0 +1,20 @@
+{
+    "name": "Peal/BayBizz/Suppliers",
+    "description": "Supplier Information",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Minuddin Peal",
+            "email": "moinuddin7@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Peal\\CorePackages\\Suppliers\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support":"~10.19.0"
+    }
+}
